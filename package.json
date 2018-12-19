@@ -4,7 +4,8 @@
   "description": "svg implements of press start 2p",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "parcel example/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,14 @@
   },
   "homepage": "https://github.com/guoshencheng/PressSart2P#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.11.0"
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "classnames": "^2.2.6",
+    "json5": "^2.1.0",
+    "parcel-bundler": "^1.11.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   }
 }
