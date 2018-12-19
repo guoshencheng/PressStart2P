@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { A } from '../lib/index.js';
-
-
-console.log(ReactDOM, React);
+import { chars } from '../lib/index.js';
 
 const App = (
   <div className="app">
-    <A />
+    {
+      Object.keys(chars).map(key => {
+        const Comp = chars[key];
+        return <Comp key={key} />
+      })
+    }
   </div>
 )
-
-console.log(A);
 
 ReactDOM.render(
   App,
