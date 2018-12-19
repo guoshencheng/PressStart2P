@@ -1,0 +1,26 @@
+{
+  "name": "pressstart2p",
+  "version": "1.0.0",
+  "description": "svg implements of press start 2p",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoshencheng/PressSart2P.git"
+  },
+  "keywords": [
+    "PressSart2P",
+    "svg"
+  ],
+  "author": "guoshencheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guoshencheng/PressSart2P/issues"
+  },
+  "homepage": "https://github.com/guoshencheng/PressSart2P#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  }
+}
